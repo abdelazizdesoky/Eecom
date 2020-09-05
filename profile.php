@@ -87,7 +87,7 @@ if (isset($_SESSION['user'])){
                     <div class = "col-sm-6 col-md-4 col-lg-3">';
                          <div class="card logpass">
                             <span class="showpass"><?=$item['price']?>$</span>
-                            <img src="admin/upload/img/<?=$row['img']?>" class="card-img-top" alt="..." style="max-height:170px">
+                            <img src="admin/upload/img/<?=$item['img']?>" class="card-img-top" alt="..." style="max-height:170px">
                             <div class="card-body">
                               <h5 class="card-title"><a href="item.php?id= <?=$item['item_id']?>"><?=$item['name']?></a></h5>
                               <p class="card-text descrip"><?=$item['description']?></p>
